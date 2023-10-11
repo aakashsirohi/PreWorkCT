@@ -1,0 +1,104 @@
+*{
+    font-family: 'Roboto', sans-serif;;
+}  
+    
+body{
+    background-color: white;
+}
+
+nav{
+    display:inline-flex;
+    color: white;
+    background-color: black
+}
+
+p1{
+    width: 350px;
+    font-size: 35px;
+    color: white;  
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+    }
+
+.container1 {
+    position: relative;
+    width: relative;
+    height: relative;
+}
+
+.image1 {
+    height: 100%;
+    width: 100%;
+}
+
+.text1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 60px;
+}
+.container2 {
+    padding: 20px;
+    background-color: rgb(235, 234, 225);
+    border-color:black;
+    margin-top: 10px;
+}
+.text2 {
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+.container3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.image2 {
+    max-width: 30%;
+    margin-right: 20px;
+}
+
+.text3 {
+    flex-grow: 1;
+    text-align: left;
+    padding: 20px;
+    color: black;
+}
+
+.button {
+    background-color: #f1bd11e0;
+    color: white;
+    padding: 10px 20px;
+    border: none}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: left;
+}
+
+#map {
+    max-width: 50%;
+}
+
+.lastInfo {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.icon-box {
+    text-align: left;
+    width: 50%;
+    /* Adjust the width of each icon box */
+}
